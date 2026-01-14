@@ -11,5 +11,21 @@
 }
 
 h1 {
+    font-size: 50px;
+    margin-top: 20px;
     animation: pulse 2s infinite;
+    -webkit-text-stroke-color: white;
+    -webkit-text-stroke-width: .5px;
+    text-align: center;
+  }
+
+
+* {
+  outline: 1px solid rgb(0, 17, 255) !important;
+}
+
+
+body {
+  background-image: url(./assets/image.jpg);
+  background-size: cover;
 }
