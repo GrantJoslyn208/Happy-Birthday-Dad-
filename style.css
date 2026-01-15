@@ -27,9 +27,24 @@ h2 {
     text-align: center;
   }
 
+h1, h2 {
+  font-family: "Bebas Neue", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.space-pic {
+  width: 60%;
+  margin: 400px auto 20px auto;
+}
+
+p {
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif
+}
+
 body {
   background-image: url(./assets/background.jpg);
-  background-size: cover;
+  background-size: 100%;
   max-width: 800px;
 }
 
@@ -62,6 +77,11 @@ p {
 .red {
   background-color: rgb(220, 93, 93);
   transform: rotate(-4deg);
+}
+
+.green {
+  background-color: rgb(93, 220, 104);
+  transform: rotate(3deg);
 }
 
 .pic {
